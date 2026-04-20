@@ -14,4 +14,4 @@ class Barang{
         cout << "Jumlah : " << jumlah << endl;
         cout << "Kategori : " << kategori << endl;
         cout << "Tanggal Produksi : " << tanggalproduksi << endl;
-    }
+    }; //Batas dari method printdata
