@@ -23,3 +23,18 @@ int main(){
     barang1.jumlah = 10;
     barang1.kategori = "Non elektronik";
     barang1.tanggalproduksi = 2023-06-01;
+
+    Barang barang2; 
+    barang2.nama = "Laptop";
+    barang2.jumlah = 1;
+    barang2.kategori = "Elektronik";
+    barang2.tanggalproduksi = 2023-05-15;
+
+    barang1.printData();
+    barang2.printData();
+
+}
+
+
+
+
