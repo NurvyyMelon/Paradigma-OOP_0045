@@ -16,10 +16,24 @@ public :
 }; //batas class
 
 int main(){
-    mahasiswa mhs;
+    Mahasiswa mhs;
     mhs.nim = 2022;
     mhs.nama = "abra";
     mhs.nilai = 90.5;
 
     mhs.printData();
 }
+
+//TUGAS
+
+#include <iostream>
+using namespace std;
+
+class Barang{
+
+    public :
+    string nama;
+    int jumlah;
+    string kategori;
+    float tanggalproduksi;
+
