@@ -45,3 +45,11 @@ class Barang{
    }
 }; //Batas dari method printdata
 
+int main(){
+    Barang barang1;
+    barang1.nama = "Buku";
+    barang1.jumlah = 10;
+    barang1.kategori = "Non elektronik";
+    barang1.tanggalproduksi = 2023-06-01;
+
+
